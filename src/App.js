@@ -6,6 +6,7 @@ import Services from './components/Services';
 import About from './components/About';
 import './App.css';
 
+
 function App() {
   return (
     <Router>
@@ -19,6 +20,7 @@ function App() {
           </ul>
         </nav>
 
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<Products />} />
@@ -31,3 +33,4 @@ function App() {
 }
 
 export default App;
+
